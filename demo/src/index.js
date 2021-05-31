@@ -46,7 +46,7 @@ class Demo extends Component {
     if (text.length > 0) {
       const newMessagesCount = this.state.isOpen ? this.state.newMessagesCount : this.state.newMessagesCount + 1;
 
-      const url = 'http://127.0.0.1:8000/answering/';
+      const url = 'http://127.0.0.1:8000/answering_json/';
       this.response = "";
       // let current_obj = this;
 
